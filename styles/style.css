@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+body{
+	margin:0;
+	background-color: #232323;
+	font-family: mali;
+	overflow: hidden;
+}
+#container{
+	width:700px;
+	margin: 0 auto;
+}
+.box {
+    float: left;
+    width: 30%;
+    padding: 85px;
+    margin: 9px;
+    background-color: red;
+    border-radius: 15px;
+}
+.box:hover{
+	transition: background-color .4s;
+}
+#header{
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size:45px;
+	color:silver;
+}
+#colorHeader{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 35px;
+	color: silver;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+#strip{
+	background-color: yellow;
+	padding:9px;
+	margin: 15px 0;
+}
+#new{
+	margin-left: 32.33%;
+	font-weight: bolder;
+	cursor: pointer;
+}
+#message{
+	margin: 0 8%;
+}
+span button{
+	font-weight: bolder;
+	margin-left:10px;
+	background-color: yellow;
+	border:transparent;
+	cursor: pointer;
+}
+

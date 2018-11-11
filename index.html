@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="icon" href="styles/favicon.jpg">
+	<link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body onload='colorgenerator(6)'>	
+<h1 id="header">The Great Color Game </h1>
+<p id="colorHeader"></p>
+<div id="strip">
+	<span id="new" onclick  = 'colorgenerator()'></span>
+	<span id="message"></span>
+	<span><button onclick='colorgenerator(3)'>Easy</button><button onclick='colorgenerator(6)'>Hard</button></span>
+</div>
+<div id="container">
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+</div>	
+<script src="scripts/main.js"></script>
+</body>
+</html>
