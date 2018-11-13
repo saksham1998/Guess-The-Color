@@ -8,4 +8,4 @@ Easy: In this mode, user would be given three different colors and has to guess 
       (Note: Chances given would be '1')
       
 Hard: In this mode,user would be given six different colors and has to guess a correct color from them.
-      (Note: Chances f=given would be '3')
+      (Note: Chances given would be '3')
