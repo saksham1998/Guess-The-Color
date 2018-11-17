@@ -74,7 +74,7 @@ function guess(visible,chances){
 				 messageEl.innerHTML = `Chances : ${chances}`
 				 this.style.backgroundColor = '#232323';
 			}
-			else{
+			else if(chances==0){
 				messageEl.innerHTML = `You Lose, Try Again!!`;
 				colorEl.style.color = colorEl.innerHTML;
 				colorEl.innerHTML = `<sub style="font-size:13px;">Color was</sub> ${colorEl.innerHTML}`;
@@ -83,4 +83,4 @@ function guess(visible,chances){
 			}
 		}
 	}
-} 
+}   
