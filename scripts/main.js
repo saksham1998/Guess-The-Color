@@ -13,7 +13,7 @@ const display = (toShow) => {
 	messageEl.style.margin = '0 8%';
 	newEl.style.marginLeft = '32.33%';
 	if(toShow==3){
-		var chances = 1;
+		var chances = 2;
 		len=3;
 		messageEl.innerHTML = `Chances : ${chances}`
 		for(i=3;i<6;i++){
